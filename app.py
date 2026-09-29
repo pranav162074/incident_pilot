@@ -143,10 +143,10 @@ with st.sidebar:
 # ----------------------------------------------------------------------------
 # header
 # ----------------------------------------------------------------------------
-st.title("🚨 IncidentPilot")
+st.title("IncidentPilot")
 st.caption("An on-call copilot that remembers every incident your team has ever fought - powered by Vectorize Hindsight.")
 
-tab_live, tab_ask, tab_log = st.tabs(["🚨 Live incident", "🧠 Ask the memory", "📈 Session log"])
+tab_live, tab_ask, tab_log = st.tabs(["Live incident", "Ask the memory", "Session log"])
 
 # ----------------------------------------------------------------------------
 # tab 1: live incident
